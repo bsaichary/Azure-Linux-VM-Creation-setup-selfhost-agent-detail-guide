@@ -2,6 +2,8 @@
 This Repo guides you through each step using images with markups for creating a linux virtual machine in Azure portal.
 and also guides you how to login to the virtual machine using ssh key from your local command prompt or git.
 
+Additionally i will guide you through steps for creating self-host agent for using it in Azure DevOps CICD for running pipeline. 
+
 ## **Let's get started**
 
 Go to -> **Azure portal** -> search **virtual machine** -> open **virtual machine** -> 
@@ -23,8 +25,9 @@ scroll down -> **image** choose **ubuntu server 22.04 LTS** -> **size** choose *
 
 
 **authentication** type choose ssh public key -> click **review + create** -> **create**.
-while creating virtual machine it will download the ssh key which is used while logging into the virtual machine.
+while creating virtual machine it will show pop up window click on download the ssh key, we will use this key while logging into the virtual machine.
 
 <img width="1236" height="818" alt="image" src="https://github.com/user-attachments/assets/24aa6315-2a20-42b7-bdea-1c4df2d0bb7f" />
+
 
 
