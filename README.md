@@ -38,9 +38,29 @@ After creating virtual machine note down the public ip of virtual machine. it is
 **Step2: Open the Git**
 
 Now, go to downloads folder there you will see pem key file which was downloaded while creating virtual machine. 
+
+
+<img width="315" height="50" alt="image" src="https://github.com/user-attachments/assets/0c94ccdb-6565-4774-891f-eaa56aaebea5" />
+
+
+It will look like this with you virtual machine name (prometheusvm_key.pem).
+
+<img width="1139" height="841" alt="image" src="https://github.com/user-attachments/assets/7b0e1e1f-a9e5-44d9-86fd-713c71e5ef08" />
+
+
 copy this file and paste it in ~/.ssh folder
 
+<img width="558" height="55" alt="image" src="https://github.com/user-attachments/assets/ab79f6ca-7944-44e3-a7bd-dcef2d0c5146" />
 
+Now go to /.ssh folder and check the file
+
+<img width="856" height="167" alt="image" src="https://github.com/user-attachments/assets/5c4c7800-4201-4992-922d-b91fc1efa548" />
+
+once it is done, now give permission to user (being in the .ssh folder) to use the pem key file to login to the virtual machine using below command.
+chmod 500 prometheusvm_key.pem
+
+Now, using this command login to vm. Here the azureuser is the username you can find this in the above screenshot.
+ssh -i prometheusvm_key.pem azureuser@4.198.169.45
 
 
 
