@@ -6,7 +6,7 @@ Additionally i will guide you through steps for creating self-host agent for usi
 
 ## **Let's get started**
 
-**Step1: Create Virtual Machine**
+## **Step1: Create Virtual Machine**
 
 Go to -> **Azure portal** -> search **virtual machine** -> open **virtual machine** -> 
 
@@ -35,7 +35,7 @@ After creating virtual machine note down the public ip of virtual machine. it is
 <img width="1850" height="784" alt="image" src="https://github.com/user-attachments/assets/7338d8e8-6b8c-43d7-a670-72174213e4a2" />
 
 
-**Step2: Open the Git**
+## **Step2: Open the Git**
 
 Now, go to downloads folder there you will see pem key file which was downloaded while creating virtual machine. 
 
@@ -69,7 +69,13 @@ After successfully logged into virtual machine you can verify that the username 
 <img width="920" height="559" alt="image" src="https://github.com/user-attachments/assets/268cf4b8-d14c-463b-97c9-19e431030c12" />
 
 
+## **Step3: Setup Agent**
 
+Now Go to -> Azure DevOps portal -> then open your Project -> click on Project settings at bottom left corner. 
+
+<img width="1825" height="840" alt="image" src="https://github.com/user-attachments/assets/bf2639d3-af2b-4aca-b5a8-e8e3fe978197" />
+
+then go to -> agent pools -> 
 
 
 
