@@ -32,7 +32,7 @@ while creating virtual machine it will show popup window click on download the s
 
 After creating virtual machine note down the public ip of virtual machine. it is mandatory for logging into vm.
 
-<img width="1859" height="839" alt="image" src="https://github.com/user-attachments/assets/65493245-33d6-400c-960c-7cf76331e2a7" />
+<img width="1850" height="784" alt="image" src="https://github.com/user-attachments/assets/7338d8e8-6b8c-43d7-a670-72174213e4a2" />
 
 
 **Step2: Open the Git**
@@ -57,10 +57,19 @@ Now go to /.ssh folder and check the file
 <img width="856" height="167" alt="image" src="https://github.com/user-attachments/assets/5c4c7800-4201-4992-922d-b91fc1efa548" />
 
 once it is done, now give permission to user (being in the .ssh folder) to use the pem key file to login to the virtual machine using below command.
-chmod 500 prometheusvm_key.pem
+**chmod 500 prometheusvm_key.pem**
 
 Now, using this command login to vm. Here the azureuser is the username you can find this in the above screenshot.
-ssh -i prometheusvm_key.pem azureuser@4.198.169.45
+**ssh -i prometheusvm_key.pem azureuser@4.198.169.45**
+
+After successfully logged into virtual machine you can verify that the username will change to virtual machine name as shown in below screenshot.
+
+<img width="920" height="559" alt="image" src="https://github.com/user-attachments/assets/268cf4b8-d14c-463b-97c9-19e431030c12" />
+
+
+
+
+
 
 
 
