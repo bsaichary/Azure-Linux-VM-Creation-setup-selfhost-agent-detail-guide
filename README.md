@@ -37,7 +37,7 @@ After creating virtual machine note down the public ip of virtual machine. it is
 
 ## **Step2: Open the Git**
 
-Now, go to downloads folder there you will see pem key file which was downloaded while creating virtual machine. 
+Open the Gitbash app for your laptop, go to downloads folder there you will see pem key file (prometheusvm_key.pem) which was downloaded while creating virtual machine. 
 
 <img width="315" height="50" alt="image" src="https://github.com/user-attachments/assets/0c94ccdb-6565-4774-891f-eaa56aaebea5" />
 
@@ -75,7 +75,10 @@ Now Go to -> Azure DevOps portal -> then open your Project -> click on Project s
 
 <img width="1825" height="840" alt="image" src="https://github.com/user-attachments/assets/bf2639d3-af2b-4aca-b5a8-e8e3fe978197" />
 
-then go to -> agent pools -> 
+then go to -> agent pools -> click on add pool (top right corner) -> select self-hosted -> give a name for pool -> scroll down and then check mark the pipeline permission 'Grant access permission to all pipelines" -> click create.
+
+
+<img width="1824" height="834" alt="image" src="https://github.com/user-attachments/assets/f255949a-a3bc-407b-bff2-218551fe3a74" />
 
 
 
