@@ -30,9 +30,12 @@ scroll down -> **image** choose **ubuntu server 22.04 LTS** -> **size** choose *
 
 while creating virtual machine it will show popup window click on download the ssh key, the ssh public key will be downloaded to you local downloads folder, we will use this key while logging into the virtual machine.
 
+<img width="613" height="400" alt="image" src="https://github.com/user-attachments/assets/0ac3ba52-c3db-467e-9981-724869aafd7e" />
+
+
 After creating virtual machine note down the public ip & username of virtual machine. it is mandatory for logging into vm.
 
-<img width="1850" height="784" alt="image" src="https://github.com/user-attachments/assets/7338d8e8-6b8c-43d7-a670-72174213e4a2" />
+<img width="1483" height="780" alt="image" src="https://github.com/user-attachments/assets/a851d593-0b97-4798-be19-98afcd50684e" />
 
 
 ## **Step2: Open the Git**
