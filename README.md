@@ -15,22 +15,22 @@ Go to -> **Azure portal** -> search **virtual machine** -> open **virtual machin
 
 click create -> **virtual machine** -> give **resource group** name (else click create new) -> **virtual machine** name.
 
-<img width="1174" height="803" alt="image" src="https://github.com/user-attachments/assets/4e4c1734-0756-4f27-982a-406eca003e24" />
+<img width="1748" height="780" alt="image" src="https://github.com/user-attachments/assets/a5859cb4-277b-40de-8405-188abf162e40" />
 
 
 scroll down -> **image** choose **ubuntu server 22.04 LTS** -> **size** choose **Standard D2s_v3**
 
-<img width="1187" height="803" alt="image" src="https://github.com/user-attachments/assets/7635ff4e-92cc-40d0-a829-39623aaf7354" />
+<img width="1861" height="839" alt="image" src="https://github.com/user-attachments/assets/f587d069-7462-40d5-94b7-abafbfb1933b" />
 
 
 **authentication** type choose ssh public key -> click **review + create** -> **create**.
 
-while creating virtual machine it will show popup window click on download the ssh key, we will use this key while logging into the virtual machine.
-
 <img width="1236" height="818" alt="image" src="https://github.com/user-attachments/assets/24aa6315-2a20-42b7-bdea-1c4df2d0bb7f" />
 
 
-After creating virtual machine note down the public ip of virtual machine. it is mandatory for logging into vm.
+while creating virtual machine it will show popup window click on download the ssh key, the ssh public key will be downloaded to you local downloads folder, we will use this key while logging into the virtual machine.
+
+After creating virtual machine note down the public ip & username of virtual machine. it is mandatory for logging into vm.
 
 <img width="1850" height="784" alt="image" src="https://github.com/user-attachments/assets/7338d8e8-6b8c-43d7-a670-72174213e4a2" />
 
