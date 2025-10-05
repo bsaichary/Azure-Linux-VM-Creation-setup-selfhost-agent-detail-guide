@@ -44,15 +44,15 @@ Open the Gitbash app for your laptop, go to downloads folder there you will see 
 
 <img width="315" height="50" alt="image" src="https://github.com/user-attachments/assets/0c94ccdb-6565-4774-891f-eaa56aaebea5" />
 
+s
+It will look like this with you virtual machine name (monitoringvm_key.pem).  
 
-It will look like this with you virtual machine name (prometheusvm_key.pem).
-
-<img width="1139" height="841" alt="image" src="https://github.com/user-attachments/assets/7b0e1e1f-a9e5-44d9-86fd-713c71e5ef08" />
+<img width="1030" height="835" alt="image" src="https://github.com/user-attachments/assets/3ca68d4f-b67f-46e2-ab5f-1f7fc99b8110" />
 
 
 copy this file and paste it in ~/.ssh folder
 
-<img width="558" height="55" alt="image" src="https://github.com/user-attachments/assets/ab79f6ca-7944-44e3-a7bd-dcef2d0c5146" />
+<img width="598" height="52" alt="image" src="https://github.com/user-attachments/assets/4163e7d4-7f53-4ee7-ab5a-3b8e18adf3d6" />
 
 
 Now go to /.ssh folder and check the file
