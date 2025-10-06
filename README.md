@@ -1,8 +1,9 @@
 # Azure-Linux-Virtual-Machine-Creation-Detailed-Guide
 This Repo guides you through each step using images with markups for 
-1. creating a linux virtual machine in Azure portal.
-2. login to the virtual machine using ssh key from your local command prompt or git bash.
-3. Setting up Self-host agent for using it in Azure DevOps CICD for running pipeline. 
+1. Creating a linux virtual machine in Azure portal.
+2. Login to the virtual machine using ssh key from your local command prompt or git bash.
+3. Setting up Self-host agent for using it in Azure DevOps CICD for running pipeline.
+4. Installing Doker and Docker-compose and setting permission for using it to run CICD pipeline while creating Docker images.
 
 ## **Let's get started**
 
