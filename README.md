@@ -61,11 +61,11 @@ Now go to /.ssh folder and check the file
 
 
 once it is done, now give permission to user (being in the .ssh folder) to use the pem key file to login to the virtual machine using below command.
-**chmod 500 prometheusvm_key.pem**
+```chmod 500 prometheusvm_key.pem```
 
 
 Now, using this command login to vm. Here the azureuser is the username you can find this in the above screenshot.
-**ssh -i prometheusvm_key.pem azureuser@4.198.169.45**
+```ssh -i prometheusvm_key.pem azureuser@4.198.169.45```
 
 After successfully logged into virtual machine you can verify that the username will change to virtual machine name as shown in below screenshot.
 
