@@ -80,11 +80,39 @@ Now Go to -> Azure DevOps portal -> then open your Project -> click on Project s
 
 then go to -> agent pools -> click on add pool (top right corner) -> select self-hosted -> give a name for pool -> scroll down and then check mark the pipeline permission 'Grant access permission to all pipelines" -> click create.
 
-
 <img width="1824" height="834" alt="image" src="https://github.com/user-attachments/assets/f255949a-a3bc-407b-bff2-218551fe3a74" />
 
 
+<img width="730" height="827" alt="image" src="https://github.com/user-attachments/assets/007b3976-d952-4e12-86a1-853007a48230" />
 
+Now, open your created agentpool (this is the agent pool where your all the agent pools will be present) -> then click on agents (this is the place where all your agents will be listed) -> then click on create new agent.
+
+<img width="1482" height="752" alt="image" src="https://github.com/user-attachments/assets/c5b8b580-3598-45a1-985a-5a9920dd6992" />
+
+
+Click on Linux -> then copy button of the download agent.
+
+<img width="1176" height="818" alt="image" src="https://github.com/user-attachments/assets/e43f4938-a232-45f1-88c3-0916bd777446" />
+
+Go to -> Git bash where you have logged in to Azure virtual machine, now create a directory with a name agent. then go inside the directory and then paste the agent url with prefix curl -O to download the agent. and now using the list command (ll) we can see the downloaded agent file in .gz format (vsts-agent-linux-x64-4.261.0.tar.gz).
+then we have to unzip the file and then start setup agent. use this command to unzip the file. ***tar zxvf vsts-agent-linux-x64-4.261.0.tar.gz*** 
+
+<img width="710" height="235" alt="image" src="https://github.com/user-attachments/assets/2b74187c-af66-4bd8-a711-41daa5b103fb" />
+
+It will download the agent into your agent directory. after downloading the agent we have to configure the agent. 
+Now, with the help of config command we will configure the agent.
+```
+./config.sh
+```
+Once you run the config command it will ask you to accept the team explorer then type y then click enter, after that it will ask you to enter the server url (nothing but azure devops organization url), then it prompts for pat authentication just click enter then go to devops portal and click on user settings at top right corner beside user icon 
+
+<img width="1890" height="503" alt="image" src="https://github.com/user-attachments/assets/04319d8f-7286-4411-a05e-d0fcfead8093" />
+
+
+<img width="1804" height="676" alt="image" src="https://github.com/user-attachments/assets/ca472721-0f1a-49a6-a090-5c68ac3ccc53" />
+
+
+<img width="949" height="365" alt="image" src="https://github.com/user-attachments/assets/83ab8323-68ed-4b0b-a0b6-8f6087a23d8f" />
 
 
 
