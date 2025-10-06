@@ -26,7 +26,7 @@ scroll down -> **image** choose **ubuntu server 22.04 LTS** -> **size** choose *
 
 **authentication** type choose ssh public key -> click **review + create** -> **create**.
 
-<img width="1236" height="818" alt="image" src="https://github.com/user-attachments/assets/24aa6315-2a20-42b7-bdea-1c4df2d0bb7f" />
+<img width="1840" height="774" alt="image" src="https://github.com/user-attachments/assets/d09a13a4-ddd0-4f4d-ab66-66abdeee3ea3" />
 
 
 while creating virtual machine it will show popup window click on download the ssh key, the ssh public key will be downloaded to you local downloads folder, we will use this key while logging into the virtual machine.
@@ -218,4 +218,7 @@ docker compose version
 <img width="966" height="328" alt="image" src="https://github.com/user-attachments/assets/a2bd381a-945f-4142-9107-f8d9c9537430" />
 
 we have successfully created the virtual machine then we implemented self host agent, after that installed docker and docker-compose.
+
 **The End**
+while creating virtual machine it will show a pop up window click on download the ssh key, the ssh public key will be downloaded to you local downloads folder, we will use this key while logging into the virtual machine.
+
