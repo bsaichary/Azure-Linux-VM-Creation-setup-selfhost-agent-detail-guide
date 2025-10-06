@@ -47,7 +47,7 @@ Open the Gitbash app for your laptop, go to downloads folder there you will see 
 s
 It will look like this with you virtual machine name (monitoringvm_key.pem).  
 
-<img width="1030" height="835" alt="image" src="https://github.com/user-attachments/assets/3ca68d4f-b67f-46e2-ab5f-1f7fc99b8110" />
+<img width="1291" height="807" alt="image" src="https://github.com/user-attachments/assets/306fc0e7-b056-4f5b-9b4b-57678dafdd26" />
 
 
 copy this file and paste it in ~/.ssh folder
