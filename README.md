@@ -180,7 +180,6 @@ then after completing the setup of apt repo for docker now we will Install docke
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-<img width="1835" height="972" alt="image" src="https://github.com/user-attachments/assets/71e37f1e-54ff-48ff-b059-0af6b1f11743" />
 
 <img width="1753" height="973" alt="image" src="https://github.com/user-attachments/assets/9e352b94-6294-4eb7-b994-9ce2f0b5a5e6" />
 
