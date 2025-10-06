@@ -61,11 +61,15 @@ Now go to /.ssh folder and check the file
 
 
 once it is done, now give permission to user (being in the .ssh folder) to use the pem key file to login to the virtual machine using below command.
-```chmod 500 prometheusvm_key.pem```
+```
+chmod 500 prometheusvm_key.pem
+```
 
 
 Now, using this command login to vm. Here the azureuser is the username you can find this in the above screenshot.
-```ssh -i prometheusvm_key.pem azureuser@4.198.169.45```
+```
+ssh -i prometheusvm_key.pem azureuser@4.198.169.45
+```
 
 After successfully logged into virtual machine you can verify that the username will change to virtual machine name as shown in below screenshot.
 
@@ -95,7 +99,10 @@ Click on Linux -> then copy button of the download agent.
 <img width="1176" height="818" alt="image" src="https://github.com/user-attachments/assets/e43f4938-a232-45f1-88c3-0916bd777446" />
 
 Go to -> Git bash where you have logged in to Azure virtual machine, now create a directory with a name agent. then go inside the directory and then paste the agent url with prefix curl -O to download the agent. and now using the list command (ll) we can see the downloaded agent file in .gz format (vsts-agent-linux-x64-4.261.0.tar.gz).
-then we have to unzip the file and then start setup agent. use this command to unzip the file. ***tar zxvf vsts-agent-linux-x64-4.261.0.tar.gz*** 
+then we have to unzip the file and then start setup agent. use this command to unzip the file. 
+```
+tar zxvf vsts-agent-linux-x64-4.261.0.tar.gz
+``` 
 
 <img width="710" height="235" alt="image" src="https://github.com/user-attachments/assets/2b74187c-af66-4bd8-a711-41daa5b103fb" />
 
