@@ -104,20 +104,37 @@ Now, with the help of config command we will configure the agent.
 ```
 ./config.sh
 ```
-Once you run the config command it will ask you to accept the team explorer then type y then click enter, after that it will ask you to enter the server url (nothing but azure devops organization url), then it prompts for pat authentication just click enter then go to devops portal and click on user settings at top right corner beside user icon 
+Once you run the config command it will ask you to accept the team explorer then type y then click enter, after that it will ask you to enter the server url (nothing but azure devops organization url),  
 
-<img width="1890" height="503" alt="image" src="https://github.com/user-attachments/assets/04319d8f-7286-4411-a05e-d0fcfead8093" />
+<img width="1894" height="549" alt="image" src="https://github.com/user-attachments/assets/1f594a77-5e8d-4fc6-a32b-18c6c0909211" />
 
 
-<img width="1804" height="676" alt="image" src="https://github.com/user-attachments/assets/ca472721-0f1a-49a6-a090-5c68ac3ccc53" />
-
+then it prompts for pat authentication just click enter then go to devops portal and click on user settings at top right corner beside user -> under that go to Personal Access Tokens.
 
 <img width="949" height="365" alt="image" src="https://github.com/user-attachments/assets/83ab8323-68ed-4b0b-a0b6-8f6087a23d8f" />
 
+In the Personal Access Tokens page click on new token at top right corner -> then provide name for pat token -> then check box the full access -> then click create.
+
+<img width="1791" height="817" alt="image" src="https://github.com/user-attachments/assets/8da2425d-fab4-4f0b-9258-b5a93c9cab03" />
+
+<img width="718" height="826" alt="image" src="https://github.com/user-attachments/assets/7b0a139d-cf26-4adf-bc5f-04f72359b2a9" />
+
+then copy the pat and store it somewhere else for future use, once you close the pat token tab you wont be able see it again. 
+
+<img width="702" height="810" alt="image" src="https://github.com/user-attachments/assets/4a1be19f-eb4b-41d4-83d3-03bcc4459dbd" />
+
+Now, paste this pat token and click enter in git bash, after pasting the pat token it will ask you to enter the agent pool name which we have created (agentpool), enter it and click enter, then it will ask for agent name, give it of your choice then click enter then click enter and enter.
+
+<img width="1891" height="673" alt="image" src="https://github.com/user-attachments/assets/af8a8664-3def-498a-9adf-a5a5c9bd8999" />
 
 
+We have successfully configured the agent, now we should make the agent run. use below command to run agent, once the agent is up and running we can see it status as Listening to jobs and also we can verify the agent status as online with green colour dot in devops portal under agent which is under agentpools.
+```
+./run.sh
+```
 
+<img width="807" height="93" alt="image" src="https://github.com/user-attachments/assets/ac4d56bb-7b99-4bb0-b083-c0a917910a28" />
 
-
+<img width="1863" height="828" alt="image" src="https://github.com/user-attachments/assets/ff9a3e0d-db91-42f3-9b72-2bbfd1342712" />
 
 
