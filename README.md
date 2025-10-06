@@ -74,7 +74,7 @@ ssh -i monitoringvm_key.pem azureuser@74.179.85.95
 
 After successfully logged into virtual machine you can verify that the username will change to virtual machine name as shown in below screenshot.
 
-<img width="920" height="559" alt="image" src="https://github.com/user-attachments/assets/268cf4b8-d14c-463b-97c9-19e431030c12" />
+<img width="852" height="666" alt="image" src="https://github.com/user-attachments/assets/5d155b1d-d1a6-46e9-b9da-ff247fc78b93" />
 
 
 ## **Step3: Setup Agent**
