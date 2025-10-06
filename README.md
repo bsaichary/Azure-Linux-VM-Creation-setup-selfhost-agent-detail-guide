@@ -40,7 +40,7 @@ After creating virtual machine note down the public ip & username of virtual mac
 
 ## **Step2: Open the Git**
 
-Open the Gitbash app for your laptop, go to downloads folder there you will see pem key file (prometheusvm_key.pem) which was downloaded while creating virtual machine. 
+Open the Gitbash app for your laptop, go to downloads folder there you will see pem key file (monitoringvm_key.pem) which was downloaded while creating virtual machine. 
 
 <img width="315" height="50" alt="image" src="https://github.com/user-attachments/assets/0c94ccdb-6565-4774-891f-eaa56aaebea5" />
 
