@@ -67,6 +67,7 @@ chmod 500 prometheusvm_key.pem
 
 
 Now, using this command login to vm. Here the azureuser is the username you can find this in the above screenshot.
+ensure you replace your detials with pem key file name, username and ip address in this command before running it.
 ```
 ssh -i prometheusvm_key.pem azureuser@4.198.169.45
 ```
