@@ -146,4 +146,77 @@ We have successfully configured the agent, now we should make the agent run. use
 
 <img width="1863" height="828" alt="image" src="https://github.com/user-attachments/assets/ff9a3e0d-db91-42f3-9b72-2bbfd1342712" />
 
+**Note: once you exit the gitbash the agent will stop running then again you have to run the ./run.sh command to make the agent run.**
+
+## **Step4: Installing Docker**
+
+First run this below command to uninstall all conflicting packages
+```
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+```
+
+<img width="1722" height="35" alt="image" src="https://github.com/user-attachments/assets/0e50aed6-a371-46d1-9b6c-7665cd9aa6ca" />
+
+
+Now, we have setup apt repository for Docker.
+```
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+```
+
+then after completing the setup of apt repo for docker now we will Install docker packages
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+<img width="1835" height="972" alt="image" src="https://github.com/user-attachments/assets/71e37f1e-54ff-48ff-b059-0af6b1f11743" />
+
+<img width="1753" height="973" alt="image" src="https://github.com/user-attachments/assets/9e352b94-6294-4eb7-b994-9ce2f0b5a5e6" />
+
+while installing it will say this operation will consume some dist space like 436mb then type enter this is to allow it to use the space on our disk.
+
+
+after completing the installation of docker, we have to start the docker service and check the status using below commands.
+```
+sudo systemctl start docker
+sudo systemctl status docker
+```
+
+<img width="1889" height="506" alt="image" src="https://github.com/user-attachments/assets/8cddb3b4-2c76-4676-990b-c3fee20ab45a" />
+
+
+To verify the docker installation is successfull we can run the sample command hello-world image, docker will fetch that image from docker hub and show us. 
+```
+sudo docker run hello-world
+```
+
+<img width="1061" height="568" alt="image" src="https://github.com/user-attachments/assets/3416d49a-9d58-4bda-9679-a44662670ac6" />
+
+
+## **Step5: Install Docker-compose**
+
+To install docker-comose we need to run the below command.
+```
+sudo apt-get update
+sudo apt-get install docker-compose-plugin
+```
+after insallation is completed check the status of docker-compose version
+```
+docker compose version
+```
+
+<img width="966" height="328" alt="image" src="https://github.com/user-attachments/assets/a2bd381a-945f-4142-9107-f8d9c9537430" />
+
+
 
